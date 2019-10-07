@@ -1,5 +1,7 @@
 <div class="btn-group">
-    <a href="#" class="btn btn-info">Add Bookmark</a>
+    <a href="{% url 'add' %}" class="btn btn-info">Add Bookmark</a>
+{#    <a href="{% url 'detail' pk=bookmark.id %}">{{ bookmark.site_name }}</a>#}
+{#    <a href="{% url 'update' pk=bookmark.id %}" class="btn btn-success btn-sm">Modify</a>#}
 </div>
 <p></p>
 <table calss="table">
